@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <title>公投同意率地圖</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.30/esri/themes/light/main.css" />
+  <script src="https://js.arcgis.com/4.30/"></script>
+  <style>
+    html, body, #viewDiv {
+      height: 100%; width: 100%;
+      margin: 0; padding: 0;
+    }
+    .esri-layer-list, .esri-legend, .esri-basemap-gallery, .esri-scale-bar {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 6px;
+      padding: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div id="viewDiv"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+[
+  {
+    "title": "核四公投_縣市",
+    "url": "核四公投_縣市simple.geojson",
+    "sampleAttributes": {
+      "縣市": "",
+      "人口數": 0,
+      "投票權人數": 0,
+      "同意票數": 0,
+      "同意票百分比": 0,
+      "不同意票數": 0,
+      "不同意票百分比": 0,
+      "總有效票數": 0,
+      "無效票數": 0,
+      "投票人數": 0,
+      "已領未投票數": 0,
+      "投票率": 0,
+      "投票權人數對人口數百分比": 0,
+      "有效同意票對投票權人數百分比": 0
+    },
+    "renderer": {
+      "type": "class-breaks",
+      "field": "同意票百分比",
+      "classBreakInfos": [
+        { "minValue": 0, "maxValue": 9.99, "label": "10%以下", "symbol": { "type": "simple-fill", "color": [0,68,27,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 10, "maxValue": 19.99, "label": "10~20%", "symbol": { "type": "simple-fill", "color": [29,134,65,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 20, "maxValue": 29.99, "label": "20~30%", "symbol": { "type": "simple-fill", "color": [85,181,103,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 30, "maxValue": 39.99, "label": "30~40%", "symbol": { "type": "simple-fill", "color": [158,215,152,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 40, "maxValue": 49.99, "label": "40~50%", "symbol": { "type": "simple-fill", "color": [213,239,207,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 50, "maxValue": 59.99, "label": "50~60%", "symbol": { "type": "simple-fill", "color": [209,226,243,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 60, "maxValue": 69.99, "label": "60~70%", "symbol": { "type": "simple-fill", "color": [154,200,224,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 70, "maxValue": 79.99, "label": "70~80%", "symbol": { "type": "simple-fill", "color": [82,157,204,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 80, "maxValue": 89.99, "label": "80~90%", "symbol": { "type": "simple-fill", "color": [29,108,177,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 90, "maxValue": 100, "label": "90~100%", "symbol": { "type": "simple-fill", "color": [8,48,107,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } }
+      ]
+    }
+  },
+  {
+    "title": "核四公投_鄉鎮",
+    "url": "核四公投_鄉鎮simple.geojson",
+    "sampleAttributes": {
+      "縣市": "",
+      "鄉鎮": "",
+      "人口數": 0,
+      "投票權人數": 0,
+      "同意票數": 0,
+      "同意票百分比": 0,
+      "不同意票數": 0,
+      "不同意票百分比": 0,
+      "總有效票數": 0,
+      "無效票數": 0,
+      "投票人數": 0,
+      "已領未投票數": 0,
+      "投票率": 0,
+      "投票權人數對人口數百分比": 0,
+      "有效同意票對投票權人數百分比": 0
+    },
+    "renderer": {
+      "type": "class-breaks",
+      "field": "同意票百分比",
+      "classBreakInfos": [
+        { "minValue": 0, "maxValue": 9.99, "label": "10%以下", "symbol": { "type": "simple-fill", "color": [0,68,27,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 10, "maxValue": 19.99, "label": "10~20%", "symbol": { "type": "simple-fill", "color": [29,134,65,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 20, "maxValue": 29.99, "label": "20~30%", "symbol": { "type": "simple-fill", "color": [85,181,103,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 30, "maxValue": 39.99, "label": "30~40%", "symbol": { "type": "simple-fill", "color": [158,215,152,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 40, "maxValue": 49.99, "label": "40~50%", "symbol": { "type": "simple-fill", "color": [213,239,207,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 50, "maxValue": 59.99, "label": "50~60%", "symbol": { "type": "simple-fill", "color": [209,226,243,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 60, "maxValue": 69.99, "label": "60~70%", "symbol": { "type": "simple-fill", "color": [154,200,224,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 70, "maxValue": 79.99, "label": "70~80%", "symbol": { "type": "simple-fill", "color": [82,157,204,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 80, "maxValue": 89.99, "label": "80~90%", "symbol": { "type": "simple-fill", "color": [29,108,177,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } },
+        { "minValue": 90, "maxValue": 100, "label": "90~100%", "symbol": { "type": "simple-fill", "color": [8,48,107,0.7], "outline": { "color": [0,0,0,0.2], "width": 0.5 } } }
+      ]
+    }
+  }
+]
